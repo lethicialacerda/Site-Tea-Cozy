@@ -1,0 +1,58 @@
+@import "nav.css";
+
+    main{
+        background-color: black;
+        width: 100%;
+    }
+
+    .inicial {
+        background-image: url("../imagens/pote\ de\ chá.jpg");
+        height: 700px;
+        width: 1000px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .principal {
+        background-color: black;
+        width: 1200px;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: seashell;
+        text-align: center;
+    }
+    .principal__titulo{
+        opacity: 0.9;
+    }
+    .principal__texto{
+        opacity: 0.9;
+    }
+
+    .secundaria {
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .tea {
+        background-color: black;
+        width: 1000px;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: seashell;
+        text-align: center;
+        margin-top: 70px;
+    }
+    .tea__titulo {
+        opacity: 0.9;
+    }
+    .tea__texto{
+        opacity: 0.9 ;
+    }
+    .secaoImagens{
+        width: 300px;
+        height: 200px;
+    }
