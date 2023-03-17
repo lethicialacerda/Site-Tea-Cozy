@@ -1,0 +1,39 @@
+.teaCozy {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.tea {
+    width: 1000px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+    text-align: center;
+    margin-top: 70px;
+}
+.tea__titulo {
+    opacity: 0.9;
+}
+.tea__texto{
+    opacity: 0.9 ;
+}
+.secaoImagens__img {
+    width: 300px;
+    height: 200px; 
+}
+.secaoImagens {
+    display: flex;
+    flex-direction: column;
+}
+.secaoImagens__titulo {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+
+}
+.secao__tea {
+    display: flex;
+    gap: 50px;
+}

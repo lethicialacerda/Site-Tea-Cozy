@@ -1,4 +1,6 @@
 @import "nav.css";
+@import "teaCozy.css";
+@import "location.css";
 
     main{
         background-color: black;
@@ -30,29 +32,4 @@
         opacity: 0.9;
     }
 
-    .secundaria {
-        margin: auto;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-    .tea {
-        background-color: black;
-        width: 1000px;
-        font-size: 22px;
-        font-family: Arial, Helvetica, sans-serif;
-        color: seashell;
-        text-align: center;
-        margin-top: 70px;
-    }
-    .tea__titulo {
-        opacity: 0.9;
-    }
-    .tea__texto{
-        opacity: 0.9 ;
-    }
-    .secaoImagens{
-        width: 300px;
-        height: 200px;
-    }
+    
