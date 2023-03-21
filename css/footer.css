@@ -1,0 +1,17 @@
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.footer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 10px;
+    color: seashell;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.9;
+    text-align: center;
+}

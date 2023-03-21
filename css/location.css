@@ -1,59 +1,40 @@
 .section__locations{
     background-image: url("../imagens/café.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    
-    justify-content: center;
+    margin: auto;
+    flex-direction: column;
     align-items: center;
-    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    height: 500px;
+    width: 1200px;
 
 }
 .location {
     display: flex;
     gap: 40px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 200px;
-
+    padding: 25px;
 }
 
 .location__titulo{
     color: seashell;
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    margin: auto;
+    display: flex;
 }
 
 .location__info{
     background-color: black;
-    width: 300px;
-    height: 300px;
     color: seashell;
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    opacity: 1;
-}
-.location__info2{
-    background-color: black;
+    padding: 20px 0px 30px 0px;
     width: 300px;
-    height: 300px;
-    color: seashell;
-    font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    opacity: 1;
-}
-.location__info3{
-    background-color: black;
-    width: 300px;
-    height: 300px;
-    color: seashell;
-    font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    opacity: 1.0;
 }
 
     
