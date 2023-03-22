@@ -2,7 +2,10 @@
 @import "teaCozy.css";
 @import "location.css";
 @import "footer.css";
-
+*{
+    margin: 0;
+    padding: 0;
+}
     main{
         background-color: black;
         width: 100%;
